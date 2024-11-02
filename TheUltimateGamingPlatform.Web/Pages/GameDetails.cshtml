@@ -1,0 +1,11 @@
+﻿@page
+@model TheUltimateGamingPlatform.Web.Pages.GameDetailsModel
+
+@if (Model.Game is not null)
+{
+	<h1>@Model.Game.Title</h1>
+}
+else
+{
+	<h1>Игры не были найдены</h1>
+}
